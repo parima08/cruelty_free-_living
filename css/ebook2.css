@@ -37,6 +37,8 @@
 	width: calc(100% - 30px - 4em);
 	position: absolute;
 	z-index: 0;
+	background: #134F14;
+	background-image: url("../img/book_bg.jpg");
 }
 
 .information-content-box{
@@ -53,9 +55,6 @@
 	padding-top: 40px;
 }
 
-.home-content-box{
-	background: #134F14;
-}
 
 .information-content-box{
 	background: white;
@@ -80,7 +79,8 @@
 .center-text{
 	height: 200px;
 	width: 525px;
-	color: white;
+	/*color: white;*/
+	color: #134F14;
 	position: relative;
 	margin: auto;
 	top: 50%;
@@ -96,7 +96,7 @@
 	font-weight: 300;
 /*	font-style: italic;*/
 	text-align: center;
-	color: white;
+	color: #134F14;
 	padding-bottom: 15px;
 	font-style: italic;
 	font-family: "Playfair Display", "Times New Roman", "serif";
@@ -127,7 +127,8 @@
 .home-button{
 	width: 49%;
 	height: 100%;
-	color: white;
+	/*color: white;*/
+	color: green;
 	display: inline-table;
 }
 
@@ -137,11 +138,11 @@
 	display: table-cell;
 	/*padding: 20px 30%;*/
 	vertical-align: middle;
-	border: 1px solid white;
+	border: 1px solid #134F14;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: white;
+	/*color: white;*/
 }
 .home-button a.download-btn:hover{
 	background-color: white;
@@ -486,14 +487,16 @@
 
 .navigation nav.menu a {
     padding: 1em 0;
-    color: white;
+    /*color: white;*/
+    color: #134F14;
     line-height: 1;
     -webkit-transition: color 0.3s, -webkit-transform 0.3s; 
     transition: color 0.3s, transform 0.3s;
 }
 
 .navigation nav.menu li.active a {
-    color: white;
+	color: #134F14;
+   /* color: white;*/
     /*color: #2CC185;*/
     /*webkit-transform: translate3d(0,2px,0);
     transform: translate3d(0,2px,0);*/
